@@ -8,5 +8,36 @@
 
 #pictureOfMe{
     width: 10rem;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+#rightSide{
+    align-self: center;
+}
+#leftSide{
+    width: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: gray;
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 5px;
+    display: inline-block;
+    background-color: beige;
+    border-style: solid;
+    border-radius: 25px;
 }
