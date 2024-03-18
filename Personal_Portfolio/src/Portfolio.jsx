@@ -1,15 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function App() {
+import NavBar from './components/navBar.jsx';
+
+export default function Portfolio() {
   return (
     <>
-      <div>
-        <p>test</p>
-      </div>
-      
+      <NavBar/>
     </>
   )
 }
 
-export default App
+
