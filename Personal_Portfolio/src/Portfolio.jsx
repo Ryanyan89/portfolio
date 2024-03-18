@@ -5,7 +5,6 @@ import NavBar from './components/navBar.jsx';
 import AboutMe from './components/about-Me.jsx';
 import Education from './components/Education.jsx';
 import Projects from './components/Projects.jsx';
-import Footer from './components/Footer.jsx';
 
 export default function Portfolio() {
   return (
@@ -14,7 +13,6 @@ export default function Portfolio() {
       <AboutMe/>
       <Education/>
       <Projects/>
-      <Footer/>
     </>
   )
 }
