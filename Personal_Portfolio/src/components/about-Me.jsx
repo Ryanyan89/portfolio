@@ -2,7 +2,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Me from '../Images/portfolio-picture.png' 
+import Me from './../Images/portfolio-picture.png' 
 
 import '../styling/About-me.css'
 
@@ -11,7 +11,7 @@ function AboutMe() {
         <>
         <Container id='aboutMe' className='d-flex justify-content-center'>
             <Row>
-                <Col md="auto">
+                <Col md="3">
                 <h1>About me</h1>
                 <img src={Me} alt="Picture of Me" id='pictureOfMe' />
                 <ul>
